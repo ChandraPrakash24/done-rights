@@ -1,0 +1,29 @@
+{
+  "name": "task-manager-app",
+  "version": "1.0.0",
+  "description": "",
+<<<<<<< HEAD
+  "main": "app.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+=======
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+>>>>>>> 4df199d14558cb7b3e04ff7cbbc4c837e77a9425
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "mongoose": "^7.3.4"
+  }
+}
